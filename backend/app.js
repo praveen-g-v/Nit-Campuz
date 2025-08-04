@@ -4,11 +4,7 @@ const express = require("express");
 const bodyparser = require("body-parser");
 const HttpError = require("./models/http-error");
 const url = process.env.DATABASE_URL;
-// "mongodb+srv://praveen:5OXdwZpycmP9aC5O@cluster0.alzawnl.mongodb.net/campuz?retryWrites=true&w=majority";
-//"mongodb+srv://campuzadmin:ptOADjxAFdMeKbAo@cluster0.alzawnl.mongodb.net/campuz?retryWrites=true&w=majority";
-/**
- * asL23GGGRkQLLSXZ
- */
+
 
 const library = require("./routes/library-routes");
 const user = require("./routes/user-routes");
